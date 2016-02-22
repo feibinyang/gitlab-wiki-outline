@@ -1,0 +1,46 @@
+.doc-dir {
+    font-size: 12px;
+    position: fixed;
+    top: 66px;
+    right: 150px;
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    overflow: auto;
+    z-index: 300;
+    max-width: 500px;
+}
+
+.doc-dir-title {
+    text-align: right;
+}
+
+.doc-dir a:link:focus,.doc-dir a:visited:focus{color:#C63;}
+.doc-dir a:link{color:#333;text-decoration:none}
+.doc-dir a:visited{color:#67035a;text-decoration:none}
+.doc-dir a:link:hover,.doc-dir a:visited:hover{color:#AD7328;text-decoration:underline}
+.doc-dir a:link:active,.doc-dir a:visited:active{color:#356a00;}
+
+.doc-dir ul {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.doc-dir ul ul {
+    margin-left: 0;
+    padding-left: 0;
+    margin-left: 2em;
+    list-style-type: disc;
+}
+
+.doc-dir ul ul ul {
+    list-style-type: circle;
+}
+
+.doc-dir ul ul ul ul {
+    list-style-type: square;
+}
