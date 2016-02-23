@@ -10,6 +10,7 @@
     overflow: auto;
     z-index: 300;
     max-width: 500px;
+    box-shadow: 1px 1px 5px 1px #ccc;
 }
 
 .doc-dir-title {
