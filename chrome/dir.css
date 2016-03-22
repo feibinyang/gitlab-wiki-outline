@@ -4,10 +4,10 @@
     top: 66px;
     right: 150px;
     padding: 0.5em;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.9);
     border: 1px solid #ccc;
     border-radius: 1em;
-    overflow: auto;
+    overflow: hidden;
     z-index: 300;
     max-width: 500px;
     box-shadow: 1px 1px 5px 1px #ccc;
@@ -29,6 +29,7 @@
     padding-left: 0;
     list-style: none;
     line-height: 1.5em;
+    overflow: auto;
 }
 
 .doc-dir ul ul {
