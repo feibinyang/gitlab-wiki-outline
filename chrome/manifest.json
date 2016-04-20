@@ -1,9 +1,13 @@
 {
     "manifest_version": 2,
 
-    "name": "gitlab wiki outline",
+    "name": "Gitlab Wiki Outline",
     "description": "The extension shows the gitlab wikis api outline.",
-    "version": "1.0",
+    "version": "1.0.1",
+
+    "icons": {
+        "128": "icon128.png"
+    },
 
     "content_scripts": [{
         "matches": ["*://gitlab.baidu.com/*"],
